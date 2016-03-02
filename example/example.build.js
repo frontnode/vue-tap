@@ -9907,9 +9907,6 @@
 	            },
 
 	            update: function(fn) {
-	                var self = this,
-	                    tapObj = {};
-
 	                if (typeof fn != 'function') return console.error('the tap event handler must be function!');
 
 	                this.handler = fn;
