@@ -10,6 +10,11 @@
     "build": "webpack example/example.js example/example.build.js",
     "dev": "webpack --watch example/example.js example/example.build.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leolin1229/vue-tap"
+  },
+  "bugs": "https://github.com/leolin1229/vue-tap/issues",
   "author": "leolin",
   "license": "MIT",
   "devDependencies": {
