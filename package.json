@@ -1,0 +1,19 @@
+{
+  "name": "vue-tap",
+  "version": "1.0.0",
+  "file": [
+    "vue-tap.js"
+  ],
+  "description": "The mobile touch event plugin for Vue.js.",
+  "main": "vue-tap.js",
+  "scripts": {
+    "build": "webpack example/example.js example/example.build.js",
+    "dev": "webpack --watch example/example.js example/example.build.js"
+  },
+  "author": "leolin",
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "^1.0.17",
+    "webpack": "^1.12.14"
+  }
+}
