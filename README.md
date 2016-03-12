@@ -24,13 +24,13 @@ Vue.use(VueTap)
 #### Using the `v-tap` directive
 
 ``` html
-<div v-tap:="handler">I am a div.</div>
+<div v-tap="handler">I am a div.</div>
 ```
 
 also, you can pass parameters to the directive, like this:
 
 ``` html
-<div v-tap:="handler('hello', $event)">I am a div.</div>
+<div v-tap="handler('hello', $event)">I am a div.</div>
 ```
 
 ## License
