@@ -40,7 +40,7 @@
                 var disX = touch.pageX - obj.tapInfo.pageX;
                 var disY = touch.pageY - obj.tapInfo.pageY;
 
-                if (interval < 100 && Math.abs(disX) < 2 && Math.abs(disY) < 2) {
+                if (interval < 300 && Math.abs(disX) < 2 && Math.abs(disY) < 2) {
                     obj.handler(event);
                 }
             },
