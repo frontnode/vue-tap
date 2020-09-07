@@ -1,5 +1,5 @@
 {
-  "name": "vue-tap",
+  "name": "@maiscrm/vue-tap",
   "version": "1.0.2",
   "file": [
     "vue-tap.js"
@@ -12,9 +12,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/leolin1229/vue-tap"
+    "url": "git@github.com:maiscrm/vue-tap.git"
   },
-  "bugs": "https://github.com/leolin1229/vue-tap/issues",
   "author": "leolin",
   "license": "MIT",
   "devDependencies": {
